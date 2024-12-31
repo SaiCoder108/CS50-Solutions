@@ -1,6 +1,6 @@
 # CS50 - Harvard Computer Science
 
-## Kishan Suhi
+## Harish Suhirthan
 Welcome to my CS50 repository! This repository contains my journey through all of Harvard's cs50 courses, showcasing my solutions.
 
 ---
