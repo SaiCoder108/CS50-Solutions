@@ -1,5 +1,0 @@
-If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
-The audio aura can be characterized by the average energy, danceability, and valence values. High energy suggests upbeat, fast-paced tracks, while low energy reflects more relaxed music. High danceability implies rhythmic music, and high valence indicates happiness. This defines the listener's musical mood as either vibrant or mellow.
-
-Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
-Averaging might not represent the listener accurately due to outliers, context (e.g., seasonal preferences), and genre diversity. Songs played during specific moods or times might skew results. A better approach could group songs by genre, use clustering algorithms, or weight songs based on play frequency for accuracy.

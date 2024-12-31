@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+    <script>
+        function checkMultipleChoice() {
+            const mcAnswer = document.querySelector('input[name="mc-question"]:checked');
+            const mcResult = document.getElementById('mc-result');
+            if (mcAnswer) {
+                mcResult.textContent = mcAnswer.value === 'b' ? 'Correct!' : 'Incorrect. The correct answer is B.';
+            } else {
+                mcResult.textContent = 'Please select an answer.';
+            }
+        }
+
+        function checkFreeResponse() {
+            const freeResponse = document.getElementById('free-response').value.trim();
+            const frResult = document.getElementById('fr-result');
+            frResult.textContent = freeResponse.toLowerCase() === 'pacific' ? 'Correct!' : 'Incorrect. The correct answer is Pacific.';
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice</h2>
+            <hr>
+            <p>What is the capital of France?</p>
+            <label><input type="radio" name="mc-question" value="a"> A. Rome</label><br>
+            <label><input type="radio" name="mc-question" value="b"> B. Paris</label><br>
+            <label><input type="radio" name="mc-question" value="c"> C. Berlin</label><br>
+            <label><input type="radio" name="mc-question" value="d"> D. Madrid</label><br>
+            <button onclick="checkMultipleChoice()">Submit</button>
+            <p id="mc-result"></p>
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <p>What is the largest ocean on Earth?</p>
+            <textarea id="free-response" rows="3" placeholder="Your answer here..."></textarea><br>
+            <button onclick="checkFreeResponse()">Submit</button>
+            <p id="fr-result"></p>
+        </div>
+    </div>
+</body>
+</html>

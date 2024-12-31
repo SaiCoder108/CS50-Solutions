@@ -1,0 +1,417 @@
+/* General styles */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Changes the default font */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* New Container Style */
+.container {
+    max-width: 1200px; /* Maximum width for the content */
+    margin: 0 auto; /* Centers the container on the page */
+    padding: 0 20px; /* Adds padding on the left and right */
+}
+
+.heading {
+    max-width: 1200px; /* Maximum width for the content */
+    margin: 0 auto; /* Centers the container on the page */
+    padding: 0 20px; /* Adds padding on the left and right */
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Header styling */
+header {
+    background-color: #265946;
+    color: #FFD700;
+    padding: 20px;
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    background-color: #265946;
+    color: #FFD700; 
+    padding: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 5em;
+    background: linear-gradient(90deg, #FFD700, #756b00 50%, #FFD700); /* Gradient for shiny effect */
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; /* Set text color to transparent to only show the background */
+    animation: shine 2s infinite linear; /* Animation to create shiny effect */
+}
+
+/* Navigation styles */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 50px;
+    font-size: 30px; /* Increase the font size */
+
+}
+
+nav a:hover {
+    background-color: #ffd700;
+    border-radius: 7px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mySlides img {
+    width: 100%;
+    
+}
+
+/* Caption text */
+.text {
+    color: #ffffff;
+    font-size: 25px;
+    padding: px;
+    position: center;
+    bottom: px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(12, 124, 0); /* Adds a background to the text */
+}
+
+/* Fade animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+/* Dot navigation */
+/* Style for the dots */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #265946; /* Default color for inactive dots */
+    border-radius: 50%; /* Make them round */
+    display: inline-block;
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Active dot style */
+.dot.active {
+    background-color: #fbff00; /* Darker color for the active dot */
+}
+
+.active {
+    background-color: #fbff00;
+}
+
+.dot:hover {
+    background-color: #fbff00;
+}
+
+/* Section styling */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Title section styling */
+.title-section {
+    margin: 15px;
+    padding: 5px;
+    background-color: #265946;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('books.jpg'); /* Use your desired image URL */
+    background-size: cover; /* Ensures the background covers the whole section */
+    background-position: center; /* Centers the background image */
+}
+
+.title-section h2 {
+    color: #FFD700;
+    font-weight: bold;
+    font-size: 1.5em;
+    background: linear-gradient(90deg, #FFD700, #fff 50%, #FFD700); /* Gradient for shiny effect */
+    background-size: 100%;
+    background-clip: text;
+    position: relative; /* Ensure text stays above the background */
+    z-index: 1; /* Bring text above the background */
+}
+
+/* Keyframes for the shiny animation */
+@keyframes shine {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 200%;
+    }
+}
+
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: flex-start; /* Aligns items to the left */
+}
+
+.about-content img {
+    margin-bottom: 20px; /* Adds space between the image and text */
+    border-radius: 8px; /* Optional: round the corners of the image */
+}
+
+.header-content {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Space between the left and right content */
+    align-items: center; /* Vertically align items in the center */
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column; /* Stack the title and nav vertically */
+    border-radius: 8px; /* Optional: round the corners of the image */
+}
+
+.header-right {
+    display: flex; /* Optional: allows for more items on the right if needed */
+    border-radius: 10px; /* Optional: round the corners of the image */
+}
+
+.header-right img {
+    width: 100px; /* Adjust this size as needed */
+    height: auto; /* Keeps the aspect ratio */
+    max-width: 100%; /* Ensures the logo doesn’t overflow the container */
+    object-fit: contain; /* Makes sure the logo fits well */
+}
+
+.team-section {
+    display: flex; /* Use Flexbox to align items side by side */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add some space between the items */
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 200;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for a 3D effect */
+}
+
+.team-img {
+    border-radius: 10px;
+}
+
+.team-intro p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.form-button-container {
+    text-align: center; /* Centers the button */
+    margin: 60px 0; /* Adds some margin above and below the button */
+}
+
+.form-button {
+    background-color: #ffd700; /* Button background color */
+    color: #000000; /* Text color */
+    padding: 25px 200px; /* Padding around the text */
+    text-decoration: none; /* Removes underline from the link */
+    border-radius: 35px; /* Rounds the corners of the button */
+    font-size: 30px; /* Increases font size */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.form-button:hover {
+    background-color: #D3D3D3; /* Darker color on hover */
+}
+
+/* Projects Gallery Styling */
+.projects-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 3000px; /* Limits the width to fit the content */
+    margin: 0 auto; /* Centers the gallery on the page */
+    padding: 20px 0; /* Optional: Add some vertical padding */
+}
+
+.project-panel {
+    display: block;
+    text-align: center;
+    width: 300px; /* Width of each panel */
+    height: auto; /* Ensures height adjusts based on content */
+    perspective: 1000px;
+    text-decoration: none;
+    color: #000;
+    transition: transform 0.5s ease-in-out;
+}
+
+.project-panel:hover {
+    transform: rotateY(10deg) rotateX(-10deg); /* 3D tilt effect */
+}
+
+.project-panel img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.project-panel:hover img {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Shadow effect on hover */
+}
+
+.panel-title {
+    margin-top: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    background: #265946;
+    color: #FFD700;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-panel:hover .panel-title {
+    background-color: #fbff0000; /* Change color when hovered */
+}
+
+/* Styles for medium-sized screens (tablets) */
+@media (max-width: 1200px) {
+
+    header h1 {
+        font-size: 5vw; /* Responsive font size based on viewport width */
+    }
+    
+    .container {
+        width: 95%; /* Reduces the width slightly for medium screens */
+    }
+
+    nav {
+        flex-direction: row; /* Keep items horizontal on medium screens */
+        justify-content: space-around; /* Center the links without extra space */
+    }
+
+    nav a {
+        padding: 10px; /* Adjust padding for medium screens */
+        font-size: 2.5vw; /* Responsive font size for medium screens */
+    }
+
+    section {
+        padding: 5%; /* Adds padding as a percentage */
+    }
+
+    .team-member {
+        max-width: 80%; /* Reduces max-width for team members */
+    }
+}
+
+/* Styles for smaller screens (mobile) */
+@media (max-width: 600px) {
+    .container {
+        padding: 0 5%; /* Padding for smaller screens */
+    }
+
+    header h1 {
+        font-size: 6vw; /* Larger font size for better visibility */
+    }
+
+    /* Mobile styles for the navigation bar */
+    .navbar {
+        display: block; /* Ensures items are stacked in a block */
+        text-align: left; /* Aligns the text to the left */
+        padding: 0; /* Removes any padding */
+        margin: 0; /* Removes any margin */
+        width: 100%; /* Full width for the container */
+    }
+
+    .navbar a {
+        display: block; /* Ensures each link takes a full row */
+        width: 100%; /* Full width for each link */
+        padding: 10px 0; /* Add padding between links */
+        text-align: left; /* Aligns text inside each link */
+        font-size: 5vw; /* Responsive font size */
+        margin: 0; /* Removes any margins between links */
+        border-bottom: 1px solid #ffd700; /* Optional: Adds a border between items */
+    }
+
+    .navbar a:last-child {
+        border-bottom: none; /* Remove border on the last item */
+    }
+
+    .navbar a:hover {
+        background-color: #ffd700; /* Highlight effect on hover */
+    }
+
+    .slideshow-container {
+        max-width: 100%; /* Full width for slideshow on mobile */
+    }
+
+    .mySlides img {
+        height: auto; /* Ensure images maintain their aspect ratio */
+    }
+
+    section {
+        padding: 5%; /* Padding for sections on mobile */
+    }
+
+    .form-button {
+        width: 100%; /* Full width for buttons on mobile */
+        font-size: 4vw; /* Responsive font size */
+        padding: 6% 0; /* Adjust padding as a percentage */
+    }
+
+    .team-member {
+        width: 100%; /* Full width for team members on mobile */
+        max-width: none; /* Remove max-width for better fit */
+    }
+
+    .team-intro p {
+        font-size: 4vw; /* Responsive font size for team intro */
+    }
+}
