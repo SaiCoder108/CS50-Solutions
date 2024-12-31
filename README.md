@@ -10,5 +10,3 @@ This collection showcases my journey through one of the most challenging and rew
 
 ### Why CS50?
 CS50 is known for its rigorous yet rewarding curriculum, designed to push the limits of what’s possible for beginners in computer science. My journey with CS50 allowed me to develop problem-solving skills and a strong foundation in programming that I will carry forward into my future studies in computer engineering.
-
-![CS50 Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Harvard_CS50_Logo.svg/1200px-Harvard_CS50_Logo.svg.png)
