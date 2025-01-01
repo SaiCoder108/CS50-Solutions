@@ -1,4 +1,4 @@
-# CS50 - Harvard Computer Science
+# CS50 - Harvard University's Computer Science Course(s)
 
 ## Harish Suhirthan
 Welcome to my CS50 repository! This repository contains my journey through all of Harvard's cs50 courses, showcasing my solutions.
