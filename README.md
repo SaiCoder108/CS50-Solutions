@@ -21,7 +21,7 @@ Here’s an overview of my progress across all the CS50 courses:
 
 | Course No. | Course Name                                        | Status          | Completion Date |
 |------------|-----------------------------------------------------|-----------------|-----------------|
-| 1          | [CS50x - Introduction to Computer Science](https://cs50.harvard.edu/x/) | ✅ Completed     | [Date]          |
+| 1          | [CS50x - Introduction to Computer Science](https://cs50.harvard.edu/x/) | ✅ Completed     | 2024/10/31          |
 | 2          | [CS50p - Introduction to Programming with Python](https://cs50.harvard.edu/python/) | ⚒️ In Progress   | [Date]          |
 | 3          | [CS50ai - Introduction to Artificial Intelligence](https://cs50.harvard.edu/ai/) | 🕛 Not Started   | [Date]          |
 | 4          | [CS50r - Introduction to Robotics](https://cs50.harvard.edu/robotics/) | 🕛 Not Started   | [Date]          |
