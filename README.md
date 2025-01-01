@@ -15,7 +15,23 @@ CS50-Solutions/
 ├── cs50x/         # CS50's Introduction to Computer Science
 └── README.md      # This File
 ```
+## 📈 My Progress
 
+Here’s an overview of my progress across all the CS50 courses:
+
+| Course No. | Course Name                                        | Status          | Completion Date |
+|------------|-----------------------------------------------------|-----------------|-----------------|
+| 1          | [CS50x - Introduction to Computer Science](https://cs50.harvard.edu/x/) | ✅ Completed     | [Date]          |
+| 2          | [CS50p - Introduction to Programming with Python](https://cs50.harvard.edu/python/) | ⚒️ In Progress   | [Date]          |
+| 3          | [CS50ai - Introduction to Artificial Intelligence](https://cs50.harvard.edu/ai/) | 🕛 Not Started   | [Date]          |
+| 4          | [CS50r - Introduction to Robotics](https://cs50.harvard.edu/robotics/) | 🕛 Not Started   | [Date]          |
+| 5          | [CS50w - Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/) | 🕛 Not Started   | [Date]          |
+| 6          | [CS50csec - Introduction to Computer Security](https://cs50.harvard.edu/security/) | 🕛 Not Started   | [Date]          |
+| 7          | [CS50sql - Introduction to Databases with SQL](https://cs50.harvard.edu/sql/) | 🕛 Not Started   | [Date]          |
+| 8          | [CS50l - Introduction to Linux and Bash](https://cs50.harvard.edu/linux/) | 🕛 Not Started   | [Date]          |
+| 9          | [CS50b - Mobile Development](https://cs50.harvard.edu/mobile/) | 🕛 Not Started   | [Date]          |
+
+---
 ---
 
 ## 🛠️ Tools & Technologies
