@@ -7,19 +7,12 @@ Welcome to my CS50 repository! This repository contains my journey through all o
 
 ## 📂 Repository Structure
 
-This repository is organized as follows:
+This repository is organized as follows (Files will be added as I progress through the courses):
 
 ```
-CS50/
-├── cs50x/         # CS50's Introduction to Computer Science
+CS50-Solutions/
 ├── cs50p/         # CS50's Introduction to Programming with Python
-├── cs50ai/        # CS50's Introduction to Artificial Intelligence with Python
-├── cs50r/         # CS50's Introduction to Programing with R
-├── cs50w/         # CS50's Web Programming with Python and JavaScript
-├── cs50csec/      # CS50's Introduction to Cybersecurity
-├── cs50sql/       # CS50's Introduction to Databases with SQL
-├── cs50l/         # CS50's Computer Science for Lawyers
-├── cs50b/         # CS50's Computer Science for Business Professionals
+├── cs50x/         # CS50's Introduction to Computer Science
 └── README.md      # This File
 ```
 
